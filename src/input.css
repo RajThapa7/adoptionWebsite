@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .clip-right{
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    }
+
+    .clip-top-left{
+        clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+    }
+
+    .bg-image{
+        background-image: url('./images/pawsbackground.png');
+    }
+    
+    }
